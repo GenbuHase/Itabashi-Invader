@@ -7,7 +7,7 @@ gulp.task("default", () => {
 		"./js/source/*.js",
 		"./js/source/Character/*.js"
 	])	.pipe(gulpPlumber())
-		.pipe(gulpConcat("main.js"))
+		.pipe(gulpConcat("build.js"))
 		.pipe(gulp.dest("./js/build/"));
 });
 
