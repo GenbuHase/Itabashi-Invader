@@ -1,8 +1,19 @@
+/* Basic Colors */
+HTML {
+  overflow: hidden;
+}
+
 HTML,
 Body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+Canvas#gameScreen {
+  width: 100%;
+  height: 100%;
+  background: #000000;
 }
 
 /*# sourceMappingURL=main.css.map */
